@@ -1,0 +1,1 @@
+export const selectHelloWorldStore = (state) => state.HelloWorldStore

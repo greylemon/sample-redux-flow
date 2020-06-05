@@ -1,0 +1,14 @@
+{
+  "name": "sample-flow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "]",
+  "license": "MIT",
+  "scripts": {
+    "install": "yarn --cwd backend && yarn --cwd frontend",
+    "start": "concurrently \"yarn --cwd backend start\" \"yarn --cwd frontend start\""
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2"
+  }
+}

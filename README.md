@@ -19,4 +19,4 @@
 
 8) The process for receiving data is now executed in the redux action from before. This will update the store with the lookup values received from the server.
 
-9) The [selector functions](https://github.com/greylemon/sample-redux-flow/blob/4c9317fb8bbc566f9054f621e558f1a43395e4e9/frontend/src/views/HelloWorld.js#L18) will get a mutation of the store data. Note that reselect selectors mutate the data, so becareful of usage as it may cause performance issues.
+9) The [selector functions](https://github.com/greylemon/sample-redux-flow/blob/4c9317fb8bbc566f9054f621e558f1a43395e4e9/frontend/src/views/HelloWorld.js#L18) will get a mutation of the store data, which the React component will use. Note that reselect selectors mutate the data, so becareful of usage as it may cause performance issues. 
